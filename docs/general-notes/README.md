@@ -142,25 +142,25 @@ the following document describes basic procedures for installation and communica
 1. Create a json role file in the directory 'chef-workstation\roles' and add the following content to a 'web.json' file
 >```
 >{
-   "name": "web",
-   "description": "Web server role.",
-   "json_class": "Chef::Role",
-   "default_attributes": {
-     "chef_client": {
-       "interval": 60,
-       "splay": 60
-     }
-   },
-   "override_attributes": {
-   },
-   "chef_type": "role",
-   "run_list": ["recipe[chef-client::default]",
-                "recipe[chef-client::delete_validation]",
-                "recipe[learn_chef_httpd::default]"
-   ],
-   "env_run_lists": {
-   }
-}
+>   "name": "web",
+>   "description": "Web server role.",
+>   "json_class": "Chef::Role",
+>   "default_attributes": {
+>     "chef_client": {
+>       "interval": 60,
+>       "splay": 60
+>     }
+>   },
+>   "override_attributes": {
+>   },
+>   "chef_type": "role",
+>   "run_list": ["recipe[chef-client::default]",
+>                "recipe[chef-client::delete_validation]",
+>                "recipe[learn_chef_httpd::default]"
+>   ],
+>   "env_run_lists": {
+>   }
+>}
 >```
 >**NOTE: **
 - interval: specifies the number of seconds between chef-client runs. The default value is 1,800 (30 minutes).
