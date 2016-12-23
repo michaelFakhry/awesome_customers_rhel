@@ -1,5 +1,5 @@
 #Overview
-the following document describes basic procedures for installation and communication among chef workstation, chef-server, and chef-client (node).
+The following document describes basic procedures for installation and communication among chef workstation, chef-server, and chef-client (node).
 
 ##Installing and configuring workstation
 1. Download and install [Chef DK](https://downloads.chef.io/chefdk) which is your workstation.
