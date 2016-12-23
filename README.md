@@ -1,4 +1,6 @@
-# awesome_customers_rhel
+# Installation
+
+the following steps are guidelines how you install and test the 'awesome_customers_rhel' which is used for learning purpose.
 
 ## Step 1: Get the sources from GitHub
 
