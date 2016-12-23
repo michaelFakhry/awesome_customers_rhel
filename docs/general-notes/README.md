@@ -140,6 +140,7 @@ the following document describes basic procedures for installation and communica
 
 ##Adding a role file
 1. Create a json role file in the directory 'chef-workstation\roles' and add the following content to a 'web.json' file
+>
 >```
 >{
 >   "name": "web",
@@ -163,8 +164,8 @@ the following document describes basic procedures for installation and communica
 >}
 >```
 >**NOTE: **
-- interval: specifies the number of seconds between chef-client runs. The default value is 1,800 (30 minutes).
-- splay: specifies a maximum random number of seconds that is added to the interval. Splay helps balance the load on the Chef server by ensuring that many chef-client runs are not occurring at the same interval. The default value is 300 (5 minutes).
+>- interval: specifies the number of seconds between chef-client runs. The default value is 1,800 (30 minutes).
+>- splay: specifies a maximum random number of seconds that is added to the interval. Splay helps balance the load on the Chef server by ensuring that many chef-client runs are not occurring at the same interval. The default value is 300 (5 minutes).
 
 2. Add the role to the chef-server
 >```
