@@ -91,6 +91,7 @@ the following document describes basic procedures for installation and communica
 
 ##Updating a specific recipes
 1. To update a node for example: change the file 'chef-workstation\cookbooks\learn_chef_httpd\templates\index.html.erb' with the following content
+
 >```
 <html>
  <body>
