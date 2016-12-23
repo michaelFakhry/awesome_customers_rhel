@@ -93,12 +93,12 @@ the following document describes basic procedures for installation and communica
 1. To update a node for example: change the file 'chef-workstation\cookbooks\learn_chef_httpd\templates\index.html.erb' with the following content
 
 >```
-<html>
- <body>
-    <h1>hello from <%= node['fqdn'] %></h1>
-  </body>
-</html>
-```
+><html>
+> <body>
+>    <h1>hello from <%= node['fqdn'] %></h1>
+>  </body>
+></html>
+>```
 
 2. Before provisioning you need to update the version in 'chef-workstation\cookbooks\learn_chef_httpd\metadata.rb'
 >**NOTES**: 
