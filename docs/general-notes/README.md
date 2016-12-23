@@ -163,7 +163,7 @@ the following document describes basic procedures for installation and communica
 >   }
 >}
 >```
->**NOTE: **
+>**NOTE**:
 >- interval: specifies the number of seconds between chef-client runs. The default value is 1,800 (30 minutes).
 >- splay: specifies a maximum random number of seconds that is added to the interval. Splay helps balance the load on the Chef server by ensuring that many chef-client runs are not occurring at the same interval. The default value is 300 (5 minutes).
 
