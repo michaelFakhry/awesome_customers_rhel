@@ -238,5 +238,5 @@ If you omit the --all argument, you'll be prompted to select which version to de
 
 4. **VERY IMPORTANT**: if you want to reenable a specific node after deleting it from chef server, you need to manually log in to the node and delete the RSA private key file 'client.pem' which is created during the bootsrap process
 >```
->sudo rm /etc/chef/client.pem
+>$ sudo rm /etc/chef/client.pem
 >```
