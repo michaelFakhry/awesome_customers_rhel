@@ -4,7 +4,7 @@ the following steps are guidelines how you install and test the 'awesome_custome
 
 ## Step 1: Get the sources from GitHub
 
-$ mkdir ~/learn-chef/cookbooks
+$ mkdir -p ~/learn-chef/cookbooks
 
 $ cd ~/learn-chef/cookbooks
 
@@ -26,3 +26,13 @@ From a web browser on your workstation, navigate to your site at http://192.168.
 ## Step 4: Destroy your Test Kitchen instance
 
 $ kitchen destroy
+
+# Resources
+
+## A step by step guide
+how to carry out the 'awesome_customers_rhel' project:
+https://github.com/michaelFakhry/awesome_customers_rhel/tree/master/docs/tutorial-guide-line
+
+## Preparing a development environment
+The following document describes basic procedures for installation and communication among chef workstation, chef-server, and chef-client (node):
+https://github.com/michaelFakhry/awesome_customers_rhel/tree/master/docs/general-notes
