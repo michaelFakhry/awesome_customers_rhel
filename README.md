@@ -33,6 +33,6 @@ $ kitchen destroy
 how to carry out the 'awesome_customers_rhel' project:
 https://github.com/michaelFakhry/awesome_customers_rhel/tree/master/docs/tutorial-guide-line
 
-## Preparing a development environment
+## Preparing environment
 The following document describes basic procedures for installation and communication among chef workstation, chef-server, and chef-client (node):
 https://github.com/michaelFakhry/awesome_customers_rhel/tree/master/docs/general-notes
